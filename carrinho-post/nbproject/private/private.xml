@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/wamp64/www/test-carrinho/atividade_carrinho/carrinho.php</file>
+            <file>file:/C:/wamp64/www/test-carrinho/atividade_carrinho/model/addCarrinhoModel.php</file>
+            <file>file:/C:/wamp64/www/test-carrinho/atividade_carrinho/model/usuarioModel.php</file>
+            <file>file:/C:/wamp64/www/test-carrinho/atividade_carrinho/controller/cadastroController.php</file>
+            <file>file:/C:/wamp64/www/test-carrinho/atividade_carrinho/controller/carrinhoController.php</file>
+            <file>file:/C:/wamp64/www/test-carrinho/atividade_carrinho/produtos.php</file>
+            <file>file:/C:/wamp64/www/test-carrinho/atividade_carrinho/controller/fecharPedido.php</file>
+            <file>file:/C:/wamp64/www/test-carrinho/atividade_carrinho/controller/logoutController.php</file>
+            <file>file:/C:/wamp64/www/test-carrinho/atividade_carrinho/model/produtoModel.php</file>
+            <file>file:/C:/wamp64/www/test-carrinho/atividade_carrinho/shared/header.php</file>
+            <file>file:/C:/wamp64/www/test-carrinho/atividade_carrinho/model/compraModel.php</file>
+        </group>
+    </open-files>
+</project-private>

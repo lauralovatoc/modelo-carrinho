@@ -1,0 +1,39 @@
+drop database if exists carrinho;
+create database carrinho;
+use carrinho;
+
+create table produto(
+	id_produto int auto_increment not null,
+    nome varchar(200),
+    valor float,
+	img varchar(200),
+    primary key(id_produto)
+);
+ create table usuario(
+	email varchar(50) not null,
+    senha varchar(50),
+    primary key(email)
+ );
+
+create table compra(
+	id_compra int auto_increment not null,
+  	data TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  	valor total float not null,
+ 	email varchar(50) not null,
+	primary key(id_compra),
+	foreign key(email) references usuario(email)
+);
+
+create table produto_in_compra(
+  	id_produto int not null,
+  	id_compra int not null,
+  	quantidade int not null,
+	foreign key(id_produto) references produto(id_produto),
+	foreign key(id_compra) references compra(id_compra)
+);
+ 
+insert into usuario values('laura.lovato@gmail.com','12345');
+insert into produto(nome,valor,img) values('Batata Frita', 25.00, 'img/batata-frita.jfif');
+insert into produto(nome,valor,img) values('Hot Dog', 20.00, 'img/hotdog.jfif');
+insert into produto(nome,valor,img) values('Hambúrguer', 30.00, 'img/hamburguer.jfif');
+insert into produto(nome,valor,img) values('Onion Rings', 20.00, 'img/onion-rings.jfif');
